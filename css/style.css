@@ -3439,6 +3439,17 @@ input[type="button"].btn-block {
   -ms-flex-pack: justify;
   justify-content: space-between;
   padding: 0.5rem 1rem; }
+  .sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    transition: .5s; 
+  }
+    .navbar.sticky-top.sticky-nav {
+      background: var(--bs-primary);
+      padding: 10px 0;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
   .navbar > .container,
   .navbar > .container-fluid {
     display: -webkit-box;
